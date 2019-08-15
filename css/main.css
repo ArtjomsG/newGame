@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One&display=swap');
+
+body{
+    background-image: url('../img/background.jpg')!important;   
+}
+
+.btn {
+    height: auto;
+    width: 300px;
+    font-size: 40px!important;
+    border-radius: 50px!important;
+    background-color: rgba(13, 212, 46, 0.712)!important;
+    border: none!important;  
+}
+
+.btn:hover{
+    background-color: rgba(255, 255, 0, 0.623)!important;
+}
+
+.row{
+    display: inline-block;
+    width: 640px;
+    text-align: center;
+}
+
+#main{
+    display: flex;
+    justify-content: center;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(248, 248, 250);
+    
+}
+
+.player_1 {
+    background-color: rgba(255, 166, 0, 0.582);
+    width: 220px;
+    text-align: center;
+    height: 500px
+    
+
+}
+
+.player_2 {
+    background-color: rgba(198, 27, 221, 0.493);
+    width: 220px;
+    text-align: center;
+    height: 500px;
+}
+
+.grid-container {
+	display: grid;
+	grid-template-rows: repeat(9, 70px);
+	grid-template-columns: repeat(9, 70px);
+	grid-gap: 3px;
+	margin: auto 0;
+	padding: 3.8vh;
+}
+.grid-item {
+	transition: background-color .6s;
+	background-image: url('../img/grass.jpg');
+	padding: 3px;
+}
+
+
+
