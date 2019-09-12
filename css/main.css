@@ -49,8 +49,8 @@ body{
 
 .grid-container {
 	display: grid;
-	grid-template-rows: repeat(9, 70px);
-	grid-template-columns: repeat(9, 70px);
+	grid-template-rows: repeat(9, 60px);
+	grid-template-columns: repeat(9, 60px);
 	grid-gap: 3px;
 	margin: auto 0;
 	padding: 3.8vh;
@@ -59,6 +59,33 @@ body{
 	transition: background-color .6s;
 	background-image: url('../img/grass.jpg');
 	padding: 3px;
+}
+
+.hightligt{
+    background-image: url('../img/grass2.jpg')!important;
+
+}
+
+.weaponParagraph{
+    width: 60px;
+    height: 60px;
+
+}
+
+.dog_weapon{
+    width: 60px;
+    height: 60px;
+    
+    border: 2px solid rgb(255, 255, 7);
+
+}
+
+.princess_weapon{
+    width: 60px;
+    height: 60px;
+    border: 2px solid rgb(255, 17, 176);
+    
+
 }
 
 
