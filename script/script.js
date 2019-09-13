@@ -55,7 +55,7 @@ var weapon = {
     },
     wizard: {
         name: 'wizard',
-        power: 25,
+        power: 50,
         //image: '<img src="img/wizard.jpg" alt="wizard">'
         image: './img/wizard.jpg'
     },
@@ -159,7 +159,6 @@ function dropOldWeapon(playerCol, playerRow){
   
   console.log(currentSquare);
   if(currentSquare){
-    
     return currentSquare;
   } else {
     return false;
@@ -191,7 +190,7 @@ function movePlayer($this){
     };
     if($this.hasClass('weapon')){
       pickUpWeapon($this);
-      //$this.html($this.data('image'));
+     
     }
     
     $(`[data-col="${playerCol}"][data-row="${playerRow}"]`).html('').removeClass('full');
