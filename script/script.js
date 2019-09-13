@@ -146,7 +146,7 @@ function pickUpWeapon($this){
   
   $this.data('name', weapon);
   $this.data('image', weaponImage);
-  $this.data('power', damage);
+  $this.data('power', weaponDamage);
  // $this.css({'background-image': 'url(' + $this.data("image") + ')', 'width': '60px', 'height': '60px'});
   
 
