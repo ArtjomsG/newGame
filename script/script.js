@@ -137,6 +137,7 @@ if(  (colDifference <= 3 && rowDifference === 0) || (rowDifference <= 3 && colDi
 //5.add and remove images(swap weapon images)//;
 
 function pickUpWeapon($this){
+
 let squareWeaponName = $this.data('name');
 let squareWeaponImage = $this.data('image');
 let squareWeaponPower = $this.data('power');
@@ -155,7 +156,8 @@ $this.data('name', weapon);
 $this.data('image', weaponImage);
 $this.data('power', weaponDamage);
 
-$(`.${activePlayer.playerType}_weapon`).addClass(weapon); 
+$(`.${activePlayer.playerType}_weapon`).addClass(weapon);
+//$(`.${activePlayer.playerType}_weaponImage`).src(weaponImage)
 $(`.${activePlayer.playerType}_attack`).html(squareWeaponPower);
 
 
@@ -267,3 +269,4 @@ placePlayer(princess);
 //   let west_1 = Number(playerCol) - 1; 
 // 	let west_2 = Number(playerCol) - 2;
 //   let west_3 = Number(playerCol) - 3;
+
