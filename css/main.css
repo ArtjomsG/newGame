@@ -88,5 +88,39 @@ body{
 
 }
 
+.wizard{
+    background-image: url('../img/wizard.jpg')!important;
+    width: 60px;
+    height: 60px;
+}
+.computer{
+    background-image: url('../img/computer.jpg')!important;
+    width: 60px;
+    height: 60px;
+}
+.sword{
+    background-image: url('../img/sword.jpg')!important;
+    width: 60px;
+    height: 60px;
+}
+.donut{
+    background-image: url('../img/donut.jpg')!important;
+    width: 60px;
+    height: 60px;
+}
+
+.dog{
+    background-image: url('../img/dog.png')!important;
+    width: 60px;
+    height: 60px;
+
+}
+
+.princess{
+    background-image: url('../img/princes.png')!important;
+    width: 60px;
+    height: 60px;
+}
+
 
 
